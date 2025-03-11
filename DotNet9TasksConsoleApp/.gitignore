@@ -1,0 +1,45 @@
+# Build results
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test files
+*TestAdapter.dll
+*TestExecution.json
+
+# NuGet
+.nuget/
+packages/
+
+# Visual Studio cache files
+.vs/
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Other
+*.bak
+*.tmp
+._*
+.DS_Store
+*.swp
+*.log
+*.patch
+*.orig
+
+# InstallShield output
+Release/
+
+#ReSharper
+_ReSharper*/
+
+# Visual Studio Code
+.vscode/
+
+# macOS files
+*.dmg
