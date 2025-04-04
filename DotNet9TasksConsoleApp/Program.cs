@@ -4,6 +4,12 @@ await WaitAllTasksInSequenceAsync();
 await WaitAllTasksAsCompletedAsync();
 await DotNetNineWhenEachExampleAsync();
 
+
+
+
+
+
+
 async Task DotNetNineWhenEachExampleAsync()
 {
     List<Task<int>> tasks = Enumerable.Range(1, 5).Select(CalculateAsync).ToList();
